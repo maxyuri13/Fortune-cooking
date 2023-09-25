@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  background: linear-gradient(45deg, #190361, #bb00ff);
+	animation: gradient 10s ease infinite;
+  background-size: 200% 200%;
+  font-size: 1.6rem;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+body, button, input {
+  font-family: 'DM Sans', sans-serif;
+}
+
+button {
+  background-color: #FF9500;
+  color: #FFF;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background .3s;
+  border: none;
+  padding: 1.6rem;
+}
+
+button:hover {
+  background-color: #c27509;
+}
+
+.hide {
+  display: none;
+}
+
+main {
+  background: #FFF;
+  box-shadow: 0 2rem 5rem 0 rgba(0, 0, 0, 0.80);
+  border-radius: .5rem;
+  padding: 4.8rem 6.4rem;
+  width: min(42.8rem, 90%);
+  margin-top: -12rem;
+  text-align: center;
+}
+
+#fortuneCookie {
+  transition: all 300ms ease-out; 
+}
+
+#fortuneCookie:hover {
+  filter: hue-rotate(8deg) contrast(100%) saturate(90%);
+  animation: shake 0.5s ease infinite;
+}
+
+#openedCookie:hover {
+  filter: hue-rotate(8deg) contrast(100%) saturate(90%);
+}
+
+/* SCREEN1 */
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.4rem;
+  margin-bottom: 1.5rem;
+}
+
+h1, p {
+  color: #34355B;
+}
+
+p {
+  opacity: .8;
+  margin-bottom: 2.6rem;
+}
+
+/* SCREEN2 */
+
+#cookieMessage {
+  background-color: #E4EDF1;
+  box-shadow: .2rem .2rem .2rem 0 rgba(85, 85, 85, 0.50);
+}
+
+#cookieMessage p {
+  font-family: 'Dancing Script', cursive;
+  color: #000;
+  font-size: 2.4rem;
+  font-weight: 400;
+  padding: 1rem;
+}
+
+#openedCookie {
+  width: 30rem;
+  padding: 6rem 0;
+}
+
+.screen2 button {
+  border-radius: .4rem;
+}
+
+/* ANIMATION */
+
+#cookieMessage {
+  animation: move 1s;
+}
+
+@keyframes shake {
+  0% { transform: translate(0, 0); }
+  10% { transform: translate(-.2rem, -.2rem); }
+  20% { transform: translate(.2rem, -.2rem); }
+  30% { transform: translate(-.2rem, .2rem); }
+  40% { transform: translate(.2rem, .2rem); }
+  50% { transform: translate(-.2rem, -.2rem); }
+  60% { transform: translate(.2rem, -.2rem); }
+  70% { transform: translate(-.2rem, .2rem); }
+  80% { transform: translate(.2rem, .2rem); }
+  90% { transform: translate(-.2rem, -.2rem); }
+  100% { transform: translate(0, 0); }
+}
+
+@keyframes move {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0); 
+  }
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+
