@@ -16,6 +16,8 @@
     src="/Assets/Biscoito Fechado.png" width="75%" height="75%"
   />
   <br>
+<p>
+<p align="center">
   <strong>Biscoito Aberto</strong>
   <img
     alt="Biscoito Aberto"
