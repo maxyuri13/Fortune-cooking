@@ -19,6 +19,7 @@
 <p>
 <p align="center">
   <strong>Biscoito Aberto</strong>
+  <br>
   <img
     alt="Biscoito Aberto"
     title="Biscoito Aberto"
