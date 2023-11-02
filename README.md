@@ -1,17 +1,51 @@
-# Project-fortune-cooking
+<h1 align="center"> 
+    🥠 Biscoito da Sorte
+</h1>
+<p align="center">
+ Dê um toque misterioso e divertido ao seu dia com o Projeto de Biscoito da Sorte! Este projeto inovador traz a experiência dos famosos biscoitos da sorte diretamente para você. Receba mensagens inspiradoras, previsões enigmáticas e palavras de sabedoria em cada biscoito virtual que abrir.
+</p>
 
-<strong>PT-BR</strong>
+### 📰 Layout
 
-Apresento o jogo 'Biscoito da Sorte', onde os usuários podem descobrir sua sorte do dia ao abrir um biscoito com um simples clique ou pressionando a tecla Enter.
-<br><br>
-Técnologias utilizadas: <strong>HTML5</strong> (HyperText Markup Language), <strong>CSS3</strong> (Cascading Style Sheets) e <strong>JS</strong> (JavaScript).
-<br><br>
-Projeto no codepen.io = https://codepen.io/maxyuri13/pen/poqLLRo
+<p align="center">
+  <strong>Biscoito da Sorte</strong>
+  <br>
+  <img
+    alt="Biscoito da sorte"
+    title="Biscoito da sorte"
+    src="/Assets/Biscoito Fechado.png" width="75%" height="75%"
+  />
+  <br>
+  <img
+    alt="Biscoito Aberto"
+    title="Biscoito Aberto"
+    src="/Assets/Biscoito Aberto.png" width="75%" height="75%"
+  />
+  <br>
+<p>
+  
+### 👀 Métodologias utilizadas 
+  - Desenvolvimento ágil
+  - Design Thinking
+  - Desenvolvimento orientado a testes (TDD)
+  - Método Scrum
+  - Animações e transições simples
 
-<strong>EN</strong>
+### ✈️ Tecnologias utilizadas
+  - HTML
+  - CSS
+  - JavaScript
+  - VSCode (Editor de código)
+  
 
-I present the game 'Fortune Cookie,' where users can discover their daily fortune by opening a cookie with a simple click or by pressing the Enter key.
-<br><br>
-Técnologias utilizadas: <strong>HTML5</strong> (HyperText Markup Language), <strong>CSS3</strong> (Cascading Style Sheets) and <strong>JS</strong> (JavaScript).
-<br><br>
-Project on codepen.io: https://codepen.io/maxyuri13/pen/poqLLRo
+### 💡 Pré Requisitos
+  - É essencial ter um editor de código, como o Visual Studio Code, para visualizar o código ou abrir o projeto em sua máquina.
+  - Também é possível visualizar o código no [CodePen](https://codepen.io/maxyuri13/pen/poqLLRo). 
+
+### 📝 Licença
+
+- Este projeto esta sobe a licença [MIT](/LICENSE).
+
+### ✍ Autor
+
+- Feito com 💛 por Max Yuri 👋🏽 [Entre em contato!](https://www.linkedin.com/in/maxyuri13/)
